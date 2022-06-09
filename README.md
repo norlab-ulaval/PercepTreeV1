@@ -1,5 +1,5 @@
 # PercepTreeV1
-Official code repository for the paper Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection [link coming], presented at the ICRA IFRRIA Workshop .
+Official code repository for the paper [Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection](https://www.researchgate.net/publication/360901371_Training_Deep_Learning_Algorithms_on_Synthetic_Forest_Images_for_Tree_Detection#fullTextFileContent), presented at the ICRA IFRRIA Workshop .
 The version 1 of this project is done using synthetic forest dataset `SynthTree43k`, but soon we will release models fine-tuned on real-wolrd images. Plans to release SynthTree43k are underway.
 
 The gif below shows how well the models trained on SynthTree43k transfer to real-world, without any fine-tuning on real-world images.
