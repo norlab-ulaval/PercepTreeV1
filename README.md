@@ -1,10 +1,10 @@
 # PercepTreeV1
 Official code repository for the papers:
-- [Tree Detection and Diameter Estimation Based on Deep Learning](http://arxiv.org/abs/2210.04104), published in *Forestry: An International Journal Of Forest Research*.
+- [Tree Detection and Diameter Estimation Based on Deep Learning](https://academic.oup.com/forestry/advance-article-abstract/doi/10.1093/forestry/cpac043/6779886?utm_source=advanceaccess&utm_campaign=forestry&utm_medium=email), published in *Forestry: An International Journal Of Forest Research*. Preprint version (soon).
 <div align="left">
   <img width="100%" alt="DINO illustration" src=".github/figure6.png">
 </div>
-- [Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection](http://arxiv.org/abs/2210.04104), presented at *ICRA 2022 IFRRIA Workshop*.
+- [Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection](http://arxiv.org/abs/2210.04104), presented at *ICRA 2022 IFRRIA Workshop*. The video presentation is [available](https://www.youtube.com/watch?v=8KT97ZFMC0g&list=PLbiomSAe-K8896UHcLVkNWP66DaFpS7j5&index=2). 
 <div align="left">
   <img width="100%" alt="DINO illustration" src=".github/detection_synth.jpg">
 </div>
