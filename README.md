@@ -1,4 +1,6 @@
 # PercepTreeV1
+
+
 Official code repository for the papers:
 
 <div align="left">
@@ -33,8 +35,13 @@ All our datasets are made available to increase the adoption of deep learning fo
   </tr>
   <tr>
     <td>SynthTree43k</td>
-    <td>A dataset containing 43 000 synthetic images and over 190 000 annotated trees. Includes images, train, test, and validation splits. </td>
-    <td><a href="https://ulavaldti-my.sharepoint.com/:f:/g/personal/vigro7_ulaval_ca/EvdPF5CryRVAhlBYoqk05ysB2J82dYQU0j6PQ2WH-b7WDg?e=845PrC">OneDrive</a></td>
+    <td>A dataset containing 43 000 synthetic images and over 190 000 annotated trees. Includes images, train, test, and validation splits. (84.6 GB) </td>
+    <td><a href="http://norlab.s3.valeria.science/SynthTree43k.zip?AWSAccessKeyId=VCI7FLOHYPGLOOOAH0S5&Expires=2274019241&Signature=KfOgwrHX8WHejopspqQ8XMwlMJE%3D">S3 storage</a></td>
+  <tr>
+  <tr>
+    <td>SynthTree43k</td>
+    <td>Depth images.</td>
+    <td>soon</td>
   <tr>
   <tr>
     <td>CanaTree100</td>
@@ -42,6 +49,12 @@ All our datasets are made available to increase the adoption of deep learning fo
     <td><a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/vigro7_ulaval_ca/EdxLqaVszr9LnSAcMaKnZtcBsbQ8hi4yNcmwTaMgDgM6Ww?e=tvbZgo">OneDrive</a></td>
   <tr>
 </table>
+
+The annotations files are already included in the download link, but some users requested the annotations for entire trees:
+<a href="https://drive.google.com/file/d/1AZUtdrNJGPWgqEwUrRin6OKwE_KGavZq/view?usp=sharing">train_RGB_entire_tree.json</a>,
+<a href="https://drive.google.com/file/d/1doTRoLvQ1pGaNb75mx-SOr5aEVBLNnZe/view?usp=sharing">val_RGB_entire_tree.json</a>,
+<a href="https://drive.google.com/file/d/1ZMYqFylSrx2KDHR-2TSoXFq-_uoyb6Qp/view?usp=share_link">test_RGB_entire_tree.json</a>.
+Beware that it can result in worse detection performance (in my experience), but maybe there is something to do with models not based on RPN (square ROIs), such as <a href="https://github.com/facebookresearch/Mask2Former">Mask2Former</a>.
 
 ## Pre-trained models
 Pre-trained models weights are compatible with Detectron2 config files.
@@ -97,6 +110,20 @@ We provide a demo file to try it out.
   </tr>
 </table>
 
+### Mask R-CNN finetuned on real images (`CanaTree100`)
+<table>
+  <tr>
+    <th>Backbone</th>
+    <th>Description</th>
+    <th colspan="6">Download</th>
+  </tr>
+  <tr>
+    <td>X-101-FPN</td>
+    <td>Trained on fold 01, good for inference.</td>
+    <td><a href="https://drive.google.com/file/d/108tORWyD2BFFfO5kYim9jP0wIVNcw0OJ/view?usp=sharing">model</a></td>
+  </tr>
+</table>
+
 ## Demos
 Once you have a working Detectron2 and OpenCV installation, running the demo is easy.
 
@@ -110,7 +137,25 @@ Once you have a working Detectron2 and OpenCV installation, running the demo is 
 -Open `demo_video.py` and uncomment the model config corresponding to pre-trained model weights you downloaded previously, comment the others. Default is X-101.
 - In `demo_video.py`, specify path to the video you want to try it on by setting the `video_path` variable.
 
-The gif below shows how well the models trained on SynthTree43k transfer to real-world, without any fine-tuning on real-world images. -->
 <div align="left">
-  <img width="60%" alt="DINO illustration" src=".github/pred_synth_to_real.gif">
+  <img width="70%" alt="DINO illustration" src=".github/trailer_0.gif">
 </div>
+
+# Bibtex
+If you find our work helpful for your research, please consider citing the following BibTeX entry.   
+```bibtex
+@article{grondin2022tree,
+    author = {Grondin, Vincent and Fortin, Jean-Michel and Pomerleau, François and Giguère, Philippe},
+    title = {Tree detection and diameter estimation based on deep learning},
+    journal = {Forestry: An International Journal of Forest Research},
+    year = {2022},
+    month = {10},
+}
+
+@inproceedings{grondin2022training,
+  title={Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection},
+  author={Grondin, Vincent and Pomerleau, Fran{\c{c}}ois and Gigu{\`e}re, Philippe},
+  booktitle={ICRA 2022 Workshop in Innovation in Forestry Robotics: Research and Industry Adoption},
+  year={2022}
+}
+```
