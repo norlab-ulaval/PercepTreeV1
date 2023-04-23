@@ -350,7 +350,7 @@ if __name__ == "__main__":
     cfg.MODEL.SEM_SEG_HEAD.NUM_CLASSES = 1  
     cfg.MODEL.ROI_KEYPOINT_HEAD.NUM_KEYPOINTS = 5
     cfg.TEST.KEYPOINT_OKS_SIGMAS = (.25, .25, .25, .25, .25)
-    cfgMODEL.BACKBONE.FREEZE_AT = 2
+    cfg.MODEL.BACKBONE.FREEZE_AT = 2
     cfg.SOLVER.CHECKPOINT_PERIOD = 5000
     cfg.TEST.EVAL_PERIOD = 2000    # only uncomment when evaluating during training
     cfg.INPUT.MIN_SIZE_TEST = 0  # no resize at test time
