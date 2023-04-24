@@ -331,7 +331,6 @@ if __name__ == "__main__":
     # cfg.merge_from_file(model_zoo.get_config_file("COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml"))
     # cfg.merge_from_file(model_zoo.get_config_file("COCO-Keypoints/keypoint_rcnn_X_101_32x8d_FPN_3x.yaml"))
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml"))
-    cfg.merge_from_list(opts)
     cfg.DATASETS.TRAIN = ("tree_train_set",)
     cfg.DATASETS.VAL = ("tree_val_set",)
     cfg.DATASETS.TEST = ("tree_test_set",)
