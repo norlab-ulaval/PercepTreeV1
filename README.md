@@ -41,12 +41,12 @@ All our datasets are made available to increase the adoption of deep learning fo
   <tr>
     <td>SynthTree43k</td>
     <td>Depth images.</td>
-    <td><a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/vigro7_ulaval_ca/EfglPMp555FGvwKGDEp9eRwBn_jXK-7vMPfYxDAVHbzTgg?e=u3rIb5">OneDrive </a></td>
+    <td><a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/vigro7_ulaval_ca/EfglPMp555FGvwKGDEp9eRwBn_jXK-7vMPfYxDAVHbzTgg?e=l9HFd4">OneDrive </a></td>
   <tr>
   <tr>
     <td>CanaTree100</td>
     <td>A dataset containing 100 real images and over 920 annotated trees collected in Canadian forests. Includes images, train, test, and validation splits for all five folds.</td>
-    <td><a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/vigro7_ulaval_ca/EdxLqaVszr9LnSAcMaKnZtcBxLD19RY_yyJnrNzXZXU6sw?e=hnszzp">OneDrive </a></td>
+    <td><a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/vigro7_ulaval_ca/EdxLqaVszr9LnSAcMaKnZtcBxLD19RY_yyJnrNzXZXU6sw?e=SHPODm">OneDrive </a></td>
   <tr>
 </table>
 
