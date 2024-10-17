@@ -35,7 +35,9 @@ All our datasets are made available to increase the adoption of deep learning fo
   </tr>
   <tr>
     <td>SynthTree43k</td>
-    <td>A dataset containing 43 000 synthetic images and over 190 000 annotated trees. Includes images, train, test, and validation splits. (84.6 GB) </td>
+    <td>A dataset containing 43 000 synthetic images and over 190 000 annotated trees. Includes images, train, test, and validation splits. (84.6 GB) 
+    <a href="https://drive.google.com/drive/folders/1sdJtmQ4H8aHzYZ9TWz8xpm06R9mQMd34?usp=sharing">annos</a>
+    </td>
     <td><a href="http://norlab.s3.valeria.science/SynthTree43k.zip?AWSAccessKeyId=VCI7FLOHYPGLOOOAH0S5&Expires=2274019241&Signature=KfOgwrHX8WHejopspqQ8XMwlMJE%3D">S3 storage</a></td>
   <tr>
   <tr>
