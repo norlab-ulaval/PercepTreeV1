@@ -48,7 +48,7 @@ All our datasets are made available to increase the adoption of deep learning fo
   <tr>
     <td>CanaTree100</td>
     <td>A dataset containing 100 real images and over 920 annotated trees collected in Canadian forests. Includes images, train, test, and validation splits for all five folds.</td>
-    <td><a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/vigro7_ulaval_ca/EdxLqaVszr9LnSAcMaKnZtcBxLD19RY_yyJnrNzXZXU6sw?e=SHPODm">OneDrive </a></td>
+    <td><a href="http://norlab.s3.valeria.science/neats/CanaTree100.zip?AWSAccessKeyId=VCI7FLOHYPGLOOOAH0S5&Expires=2339251391&Signature=6beuqoLRQfCTaSpoC7ZKELhJwhY%3D">S3 storage </a></td>
   <tr>
 </table>
 
